@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="form.css">
+        <title>Page2</title>
+    </head>
+    <body>
+        <div class="nav-bar">
+            <h1>Ishani Loans</h1>
+            <div class="menu-right">
+                <span onClick="myFunction()">&#9776;</span>
+                <ul id="menu">
+                    <li><a href="">HOME</a></li>    
+                    <li><a href="#contacttype">SERVICES</a></li>    
+                    <li><a href="">Aboutus</a></li>
+                    <li><a href="">FAQ</a></li>       
+                    <li><a href="">Contact</a></li> 
+                    <li class="item"><button id="butt">ApplyNow</button></li>   
+                </ul>
+        </div><br><br><br>
+        <div id="Idproof">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmuv0BAkBauqx7avLgVQ7EmtOQzQ0jTPCNu1vYn3cs-UcbRA/viewform?embedded=true" width="640" height="820" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div><br>
+            <p id="good">Thanks for submiting</p>
+            <a href="page3.html">Go to next page</a>
+            <script>
+                function myFunction(){
+                    var x = document.getElementById("menu"); 
+                    if(x.style.display == "block")
+                    {
+                        x.style.display = "none";
+                    }
+                    else
+                    {
+                        x.style.display = "block";
+                    }
+                }
+            </script> 
+    </body>
+</html>
